@@ -1,0 +1,74 @@
+{{ define "header" -}}
+  {{ partial "header.html" . }}
+{{- end }}
+
+{{ define "content" -}}
+  <h1>neko the shadow</h1>
+  
+  <h2>SNS</h2>
+  <ul>
+    <li><a href="http://nekotheshadow.hatenablog.com/" target="_blank">Non Tech Blog</a></li>
+    <li><a href="https://twitter.com/neko_the_shadow" target="_blank">Twitter</a></li>
+    <li><a href="https://qiita.com/neko_the_shadow" target="_blank">Qiita</a></li>
+    <li><a href="https://github.com/nekoTheShadow" target="_blank">GitHub</a></li>
+    <li><a href="https://yukicoder.me/users/2324" target="_blank">yukicoder</a></li>
+    <li><a href="https://atcoder.jp/user/nekoTheShadow" target="_blank">AtCoder</a></li>
+  </ul>
+
+  <h2>Skill</h2>
+  <h3>Production</h3>
+  <ul>
+    <li>Java EE 7</li>
+    <ul>
+      <li>Spring MVC 4.0</li>
+      <li>Maven</li>
+      <li>Ant</li>
+    </ul>
+    <li>bash</li>
+    <li>Red Hat Enterprise Linux 7.2 mapio</li>
+    <li>Db2 Enterprise Server Edition 10.5</li>
+    <li>SVN</li>
+  </ul>
+
+  <h3>Hobby</h3>
+  <ul>
+    <li>Ruby</li>
+    <li>Python3</li>
+    <li>C&#35;</li>
+    <li>Cent OS</li>
+    <li>Git &amp; GitHub</li>
+  </ul>
+
+  <h2>Licence</h2>
+  <ul>
+    <li>ITパスポート</li>
+    <li>基本情報処理技術者試験</li>
+    <li>応用情報処理技術者試験</li>
+    <li>情報セキュリティスペシャリスト試験&#040;Not 情報安全確保支援士&#041;</li>
+    <li>Oracle Java SE7 Silver</li>
+    <li>ビジネス実務法務検定2級</li>
+    <li>普通自動車運転免許AT限定</li>
+  </ul>
+
+  <div class="posts">
+  {{ range (where .Data.Pages "Type" "!=" "about").GroupBy "Section" }}
+    {{ range .Pages }}
+      <div class="post">
+        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }}<sup><i class="fas fa-pen-square fa-xs"></i></sup>{{ end }}</h1>
+        <span class="post-date">
+          {{- .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") -}}
+        </span>
+        {{ .Summary }}
+        {{ if .Truncated }}
+        <div class="read-more-link">
+            <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        {{ end }}
+        </div>
+     {{- end -}}
+  {{- end }}
+  </div>
+{{- end }}
+
+{{ define "footer" -}}
+{{- end }}
