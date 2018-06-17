@@ -66,15 +66,18 @@
     <li>普通自動車運転免許AT限定</li>
   </ul>
 
+  <hr />
+
   <div class="posts">
   {{ range (where .Data.Pages "Type" "!=" "about").GroupBy "Section" }}
     {{ range .Pages }}
       <div class="post">
-        <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }}<sup><i class="fas fa-pen-square fa-xs"></i></sup>{{ end }}</h1>
-        <span class="post-date">
-          {{- .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") -}}
-        </span>
+        <!-- <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }}<sup><i class="fas fa-pen-square fa-xs"></i></sup>{{ end }}</h1>-->
+        <!-- <span class="post-date"> -->
+        <!--   {{- .Date.Format (.Site.Params.dateformat | default "Jan 02, 2006") -}} -->
+        <!-- </span> -->
         <!-- {{ .Summary }} -->
+        <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         {{ if .Truncated }}
         <div class="read-more-link">
             <a href="{{ .RelPermalink }}">Read More…</a>
