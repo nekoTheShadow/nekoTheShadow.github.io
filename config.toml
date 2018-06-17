@@ -3,7 +3,9 @@ languageCode = "ja"
 title = "neko the shadow"
 theme = "hyde-hyde"
 
+
 [params]
   themeColor = "theme-base-09"
   copyright = "&copy; 2018 neko the shadow"
   description = "personal stuff"
+  dateformat = "2006-01-02"
