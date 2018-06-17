@@ -1,4 +1,9 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja"
+title = "neko the shadow"
 theme = "hyde-hyde"
+
+[params]
+  themeColor = "theme-base-09"
+  copyright = "&copy; 2018 neko the shadow"
+  description = "personal stuff"
