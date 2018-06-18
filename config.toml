@@ -3,9 +3,17 @@ languageCode = "ja"
 title = "neko the shadow"
 theme = "hyde-hyde"
 
+[[menu.main]]
+  name = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "infomation"
+  url = "/infomation"
 
 [params]
   themeColor = "theme-base-09"
   copyright = "&copy; 2018 neko the shadow"
   description = "personal stuff"
   dateformat = "2006-01-02"
+
