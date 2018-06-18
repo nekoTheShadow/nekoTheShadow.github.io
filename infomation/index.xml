@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infomations on neko the shadow</title>
+    <link>https://nekotheshadow.github.io/infomation/</link>
+    <description>Recent content in Infomations on neko the shadow</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 17 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nekotheshadow.github.io/infomation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>このサイトを設置した理由</title>
+      <link>https://nekotheshadow.github.io/infomation/about/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nekotheshadow.github.io/infomation/about/</guid>
+      <description>現代のインターネットに欠かせないものといえばSNSだが、そのSNSにURLを入力する欄が設けられていることが少なくない。ここにどのURLを入力すべきか? 結構悩ましい。ネットの海を徘徊していると、その個人を端的に示すようなものを入力しているケースが多いように見受けられる。わが身を振り返ると、そのたぐいのアカウントがなかったため、「ないならつくってしまえ」の精神で実際に作ってしまった。
+「その個人を端的に示す」ものとしては、まずSNSのアカウント一覧は必須だろう。よくもわるくもSNSは自らの分身のようなものなので、これを一覧化しておくことには意味がある。またスキルセットの一覧を示しておけば、その人のソフトウェアエンジニアとしてのバックグラウンドがわかりやすい。あとはにぎやかしとして所有資格でも書いておけば、プロフィールサイトとしての見栄えは整うだろう。
+ Web系エンジニアやデザイナの中には、名刺代わりに自らのポートフォリオサイトを有している場合がある。本サイトはそうしたポートフォリオサイトに影響を受けている。もっともわたしはソフトウェアエンジニアではあるものの、Web系エンジニアではないが。
+ 現代生活においては、複数のSNSを利用することが一般的になっている。目的にあわせて、利用するサービスを変えているだけのことだが、自分の一部であるアカウント情報がちらばったままであるのは、どうにも気持ちが悪い。もっとも、利便上の問題やセキュリティ上の問題というよりは、単に「生理的に気持ち悪い」というだけなのだが。要は、自分が利用しているSNSのアカウントをひとまとめにする&amp;ndash;というのもこのサイトを設置した理由のひとつである。
+ いわゆる静的サイトジェネレータに関心があったのも、このサイトを設置した理由のひとつに数えてよい。要は静的サイトジェネレータを触ってみたかったというだけのことである。この手のプロフィールサイトであれば、cssフレームワークなどで手組みしても、たいした手間ではないし、実際このサイトの前世はBootstrapでちまちまHTMLタグをべたうちしていた。もっとも自分のhtml/css/Bootstrapの知識では限界があって、レスポンシブ対応ができなかったというのも、静的サイトジェネレータ導入の一要因ではある。静的サイトジェネレータはそのあたりをすべてフレームワーク上で処理してくれるため、利用者は意識する必要がないのはうれしい。
+ちなみにフレームワークとしてはHugoを利用している。Hugoの採用理由としてはまず「世の中的にはやっているらしい」から。ミーハー精神が一番である。実をいうとJekyllは最後まで悩んだのだが、Ruby-Gemsのつらい経験から採用は見送った。Gemはバージョンや環境がちょっと変わるだけで、たちまち動作しなくなることが多い(Nokogiriとか)。プロフィールサイトなどはたまにしか更新しないが、その「たまの更新」のたびにGemが動かなくなる可能性がある&amp;ndash;と考え出して、採用はためらってしまった。</description>
+    </item>
+    
+    <item>
+      <title>利用した技術など</title>
+      <link>https://nekotheshadow.github.io/infomation/info/</link>
+      <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nekotheshadow.github.io/infomation/info/</guid>
+      <description>このサイトはいわゆる静的サイトジェネレータを利用して生成しているが、そのエンジンとしてはHugoを利用している。またテーマはhyde-hydeの一部を改造、というより設定をオーバライドして使っている。
+faviconは化け猫アイコンメーカーで生成したものを使っている。実をいうと、この画像はSNSのアイコン用として5年近く前に作ったもので、ほかのSNSとの整合性をとるためにこれを採用した。このような使用方法は利用規約上問題ないはずだが、怒られたらすぐやめるつもりである。
+もともとの画像はfaviconにするには巨大な画像ファイルだったため、これをfaviconらしく加工するためにFavicon &amp;amp; App Icon Generatorをした。このサイトは画像ファイルをアップロードすると、画像をfavicon用に加工してくれるだけではなく、headタグに記述すべき内容まで教えてくれて、たいへん便利だった。</description>
+    </item>
+    
+  </channel>
+</rss>
