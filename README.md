@@ -1,3 +1,11 @@
+__★★注意★★__
+
+このブランチは以下のレポジトリに移行しました。アーカイブ目的として、ブランチの削除は実施しません。
+- レポジトリ: https://github.com/nekoTheShadow/nekoTheShadow.github.io.admin
+- ブランチ: master
+上記のレポジトリではGitHub Actionsを利用し、自動ビルド・デプロイを行います。
+
+
 __ブランチ一覧__
 
 - `admin`: ビルド前のモジュールを格納する。
