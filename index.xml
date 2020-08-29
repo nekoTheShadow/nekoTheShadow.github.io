@@ -11,15 +11,5 @@
 	<atom:link href="https://nekotheshadow.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>special</title>
-      <link>https://nekotheshadow.github.io/special/special/</link>
-      <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://nekotheshadow.github.io/special/special/</guid>
-      <description>neko the shadow&#39;s personal stuff Biography SI業界の片隅でひっそり生きるシステムエンジニア。おもに完成車メーカ、自動車部品メーカのお客様を担当。いわゆるオープン系(Linux)のサーバサイドエンジニアで、Javaを利用したWebシステムの開発が中心です。
-SNS Blog  Twitter Hatena Blog  Software  Qiita GitHub  Competitive programming  AtCoder yukicoder Codeforces  Bussiness  LAPRAS LinkedIn Facebook  Skill Production  Java (Java EE, Spring) JavaScript bash SQL Red Hat Enterprise Linux Db2 Oracle Database IBM WebSphere Application Server JBoss Application Server IBM Cognos Analytics SVN  Hobby  Ruby Python3 Go Ubuntu Git GitHub Riot.js  Licence  ITパスポート 基本情報処理技術者試験 応用情報処理技術者試験 情報セキュリティスペシャリスト試験(Not 情報安全確保支援士) Oracle Java SE7 Silver ビジネス実務法務検定2級 普通自動車運転免許AT限定  Portfolio neko the shadow&amp;rsquo;s personal stuff  このサイトです。Hugoを利用して生成した静的コンテンツをGithub Pagesにホスティングしています。ビルドとデプロイはGithub Actionsを利用して自動化しています nekoTheShadow.</description>
-    </item>
-    
   </channel>
 </rss>
